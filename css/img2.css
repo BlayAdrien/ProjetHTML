@@ -1,0 +1,21 @@
+#sectImg{
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#retour{
+	display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: blue;
+}

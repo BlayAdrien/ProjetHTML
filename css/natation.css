@@ -1,0 +1,15 @@
+
+section{
+	width: 60%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+article p{
+
+	text-align: justify;
+	font-size: 20px;
+	text-indent: 2em;
+}

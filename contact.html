@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Triathlon : Contact</title>
+	<link type="text/css" href="css/projet.css" rel="stylesheet" media="all"/>
+	<link type="text/css" href="css/contact.css" rel="stylesheet" media="all"/>
+
+</head>
+
+<body>
+	<div id="socialmediadiv">
+			<a href="https://www.facebook.com/FFTRI/"><img src="Image/facebook.png" title="Page Facebook"></a>
+			<a href="https://twitter.com/fftri"><img src="Image/twitter.png" title="Page Twitter"></a>
+	</div>
+	
+	<header>
+		<h1> Triathlon</h1>
+		<img class="imgHaut" src="Image/Triathlon.png">
+	</header>
+	
+		<nav id="fondmenu">
+         	<ul id="menu">
+         		<li>
+            		<a href="accueil.html">Accueil</a>
+            	</li>
+            	<li>
+            		<a href="planning.html">Planning</a>
+            	</li>
+            	<li>
+            		<a href="tarifs.html">Tarifs</a>
+            	</li>
+            	<li>
+		            <div id="dropdown">
+		               <a href="#" id="dropdown-button">Activité</a>
+		               <div id="dropdown-content">
+		                  <a href="athletisme.html">Athlétisme</a>
+		                  <a href="cyclisme.html">Cyclisme</a>
+		                  <a href="natation.html">Natation</a>
+		               </div>
+		            </div>
+		        </li>
+		        <li>
+		            <div id="dropdown">
+		               <a href="#" id="dropdown-button">Média</a>
+		               <div id="dropdown-content">
+		                  <a href="photos.html">Photos</a>
+		                  <a href="videos.html">Vidéos</a>
+		               </div>
+		            </div>
+		        </li>
+		    
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul> 
+		</nav>
+
+		<section id="formulaire">
+				<form method="post" action="traitement.php">
+					<fieldset>
+						<legend>Contact</legend>
+						<p>
+							<label for="nom">Nom</label>
+							<input type="text" id="nom" name="nom" placeholder="Ex: Adrien" required />
+						</p>
+						<p>
+							<label for="mail">Email</label>
+							<input type="email" id="mail" name="mail" placeholder="Ex: exemple@gmail.com" required />
+						</p>
+						<p>
+							<label for="telephone">Tel.</label>
+							<input type="tel" id="telephone" name="telephone"/>
+						</p>
+						<p>
+							<label for="act">Activité</label>
+							<select name="act" id="name">
+
+								<option value="act1">Athlétisme</option>
+								<option value="act2">Cyclisme</option>
+								<option value="act3">Natation</option>
+
+							</select>
+						</p>
+						<p>
+							<label for="hor">Créneau horaire</label>
+							<select name="hor" id="name">
+
+								<option value="h1">Lundi : 14h-18h</option>
+								<option value="h2">Mardi : 8h-18h</option>
+								<option value="h3">Mercredi : 12h-18h</option>
+								<option value="h4">Mercredi : 16h-20h</option>
+								<option value="h5">Jeudi : 11h-20h</option>
+								<option value="h6">Jeudi : 12h-18h</option>
+								<option value="h7">Samedi : 12h-15h</option>						
+
+							</select>
+						</p>
+						<p>
+							<label for="btn_radio1">Première demande</label>
+							<input type="radio" name="btn_radio" value="1" id="btn_radio1">
+						</p>
+						<p>
+							<label for="btn_radio2">Déjà fait une demande</label>
+							<input type="radio" name="btn_radio" value="2" id="btn_radio2">
+						</p>
+
+						<p>
+							<label for="message">Message</label>
+							<textarea rows=4 cols=50 name="message" id="message" required ></textarea>
+						</p>
+						<p>
+							<input type="submit" value="Envoyez" id="envoie" name="envoie">
+						</p>
+					</fieldset>
+				</form>
+			</section>
+	</div>
+
+	<footer>
+		<p>Anthony COSTA / Adrien BLAY G8</p>
+	</footer>
+
+</body>
+</html>

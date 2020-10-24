@@ -1,0 +1,48 @@
+section{
+	width: 60%;
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+
+
+section:not(:last-child){
+	border-bottom: solid black 1px;
+}
+
+#lien{
+	box-shadow: 0px 8px 10px black;
+	width: 20%;
+	float : right;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+#lien a{
+	margin-bottom: 50px;
+	color: black;
+    text-decoration: none;
+    display: block;
+}
+
+#lien a:hover{
+	color: #bdc3c7;
+	text-decoration: underline;
+}
+
+#lien a:visited{
+	color: #2c3e50;
+}
+
+aside{
+	margin-right: 30px;
+}
+
+article p{
+
+	text-align: justify;
+	font-size: 20px;
+	text-indent: 2em;
+}
+
+
